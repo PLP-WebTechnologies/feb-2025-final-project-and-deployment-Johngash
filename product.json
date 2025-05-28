@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "price": 999,
+      "description": "Latest Apple iPhone with A17 Pro chip and titanium design",
+      "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=400&fit=crop",
+      "category": "smartphones",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M3",
+      "price": 1299,
+      "description": "Ultra-thin laptop with M3 chip for incredible performance",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "AirPods Pro",
+      "price": 249,
+      "description": "Premium wireless earbuds with active noise cancellation",
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "iPad Pro 12.9\"",
+      "price": 1099,
+      "description": "Professional tablet with M2 chip and Liquid Retina display",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop",
+      "category": "tablets",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Ultra",
+      "price": 799,
+      "description": "Rugged smartwatch designed for extreme adventures",
+      "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400&h=400&fit=crop",
+      "category": "wearables",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Sony WH-1000XM5",
+      "price": 399,
+      "description": "Industry-leading noise canceling headphones",
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy S24",
+      "price": 899,
+      "description": "Flagship Android phone with AI-powered features",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+      "category": "smartphones",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Dell XPS 13",
+      "price": 1199,
+      "description": "Premium ultrabook with stunning InfinityEdge display",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "PlayStation 5",
+      "price": 499,
+      "description": "Next-gen gaming console with 4K gaming and ray tracing",
+      "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=400&fit=crop",
+      "category": "gaming",
+      "featured": true
+    },
+    {
+      "id": 10,
+      "name": "Nintendo Switch OLED",
+      "price": 349,
+      "description": "Portable gaming console with vibrant OLED screen",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+      "category": "gaming",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Xbox Series X",
+      "price": 499,
+      "description": "Microsoft's most powerful gaming console ever",
+      "image": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&h=400&fit=crop",
+      "category": "gaming",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "name": "Meta Quest 3",
+      "price": 499,
+      "description": "Advanced VR headset with mixed reality capabilities",
+      "image": "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=400&h=400&fit=crop",
+      "category": "vr",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "GoPro Hero 12",
+      "price": 399,
+      "description": "Ultra-compact action camera with 5.3K video",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+      "category": "cameras",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Canon EOS R6 Mark II",
+      "price": 2499,
+      "description": "Professional mirrorless camera with dual pixel autofocus",
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=400&fit=crop",
+      "category": "cameras",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "DJI Mini 4 Pro",
+      "price": 759,
+      "description": "Compact drone with 4K HDR video and obstacle avoidance",
+      "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=400&fit=crop",
+      "category": "drones",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "Samsung 65\" Neo QLED",
+      "price": 1799,
+      "description": "Premium 4K smart TV with quantum dot technology",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+      "category": "tvs",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "LG OLED C3 55\"",
+      "price": 1299,
+      "description": "Self-lit OLED TV with perfect blacks and vibrant colors",
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=400&h=400&fit=crop",
+      "category": "tvs",
+      "featured": false
+    },
+    {
+      "id": 18,
+      "name": "Sonos Arc Soundbar",
+      "price": 899,
+      "description": "Premium soundbar with Dolby Atmos and voice control",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": false
+    },
+    {
+      "id": 19,
+      "name": "Bose QuietComfort 45",
+      "price": 329,
+      "description": "Wireless noise-canceling headphones with 24-hour battery",
+      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "name": "JBL Charge 5",
+      "price": 179,
+      "description": "Portable Bluetooth speaker with powerbank feature",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": false
+    },
+    {
+      "id": 21,
+      "name": "Tesla Model S Plaid",
+      "price": 89999,
+      "description": "Electric luxury sedan with 1020 horsepower",
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=400&fit=crop",
+      "category": "automotive",
+      "featured": true
+    },
+    {
+      "id": 22,
+      "name": "Microsoft Surface Laptop 5",
+      "price": 999,
+      "description": "Sleek laptop with 12th Gen Intel Core processors",
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": false
+    },
+    {
+      "id": 23,
+      "name": "HP Spectre x360",
+      "price": 1149,
+      "description": "Convertible laptop with OLED touchscreen display",
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": false
+    },
+    {
+      "id": 24,
+      "name": "Razer Blade 15",
+      "price": 2499,
+      "description": "Gaming laptop with RTX 4070 and 240Hz display",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": false
+    },
+    {
+      "id": 25,
+      "name": "Google Pixel 8 Pro",
+      "price": 999,
+      "description": "Android phone with advanced AI photography features",
+      "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=400&fit=crop",
+      "category": "smartphones",
+      "featured": false
+    },
+    {
+      "id": 26,
+      "name": "OnePlus 12",
+      "price": 799,
+      "description": "Flagship Android with 100W fast charging",
+      "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=400&h=400&fit=crop",
+      "category": "smartphones",
+      "featured": false
+    },
+    {
+      "id": 27,
+      "name": "Nothing Phone (2)",
+      "price": 599,
+      "description": "Unique transparent design with Glyph Interface",
+      "image": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=400&h=400&fit=crop",
+      "category": "smartphones",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "name": "Samsung Galaxy Tab S9",
+      "price": 799,
+      "description": "Premium Android tablet with S Pen included",
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400&h=400&fit=crop",
+      "category": "tablets",
+      "featured": false
+    },
+    {
+      "id": 29,
+      "name": "Microsoft Surface Pro 9",
+      "price": 999,
+      "description": "2-in-1 tablet and laptop with detachable keyboard",
+      "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&h=400&fit=crop",
+      "category": "tablets",
+      "featured": false
+    },
+    {
+      "id": 30,
+      "name": "Garmin Fenix 7X",
+      "price": 899,
+      "description": "Rugged GPS smartwatch for outdoor adventures",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "category": "wearables",
+      "featured": false
+    },
+    {
+      "id": 31,
+      "name": "Fitbit Charge 6",
+      "price": 199,
+      "description": "Advanced fitness tracker with GPS and heart rate monitor",
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=400&fit=crop",
+      "category": "wearables",
+      "featured": false
+    },
+    {
+      "id": 32,
+      "name": "Samsung Galaxy Buds Pro 2",
+      "price": 229,
+      "description": "Premium wireless earbuds with spatial audio",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop",
+      "category": "audio",
+      "featured": false
+    },
+    {
+      "id": 33,
+      "name": "Anker PowerCore 26800",
+      "price": 65,
+      "description": "High-capacity portable charger with fast charging",
+      "image": "https://images.unsplash.com/photo-1609592718644-8615f0a93718?w=400&h=400&fit=crop",
+      "category": "accessories",
+      "featured": false
+    },
+    {
+      "id": 34,
+      "name": "Logitech MX Master 3S",
+      "price": 99,
+      "description": "Advanced wireless mouse for productivity",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop",
+      "category": "accessories",
+      "featured": false
+    },
+    {
+      "id": 35,
+      "name": "Keychron K8 Pro",
+      "price": 139,
+      "description": "Wireless mechanical keyboard with hot-swappable switches",
+      "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=400&fit=crop",
+      "category": "accessories",
+      "featured": false
+    },
+    {
+      "id": 36,
+      "name": "LG UltraGear 27\" 4K",
+      "price": 699,
+      "description": "Gaming monitor with 144Hz refresh rate and HDR",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=400&fit=crop",
+      "category": "monitors",
+      "featured": false
+    },
+    {
+      "id": 37,
+      "name": "Dell UltraSharp 32\" 4K",
+      "price": 799,
+      "description": "Professional monitor with accurate color reproduction",
+      "image": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=400&h=400&fit=crop",
+      "category": "monitors",
+      "featured": false
+    },
+    {
+      "id": 38,
+      "name": "Nvidia RTX 4090",
+      "price": 1599,
+      "description": "Flagship graphics card for 4K gaming and content creation",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop",
+      "category": "components",
+      "featured": false
+    },
+    {
+      "id": 39,
+      "name": "AMD Ryzen 9 7950X",
+      "price": 699,
+      "description": "High-performance 16-core processor for gaming and productivity",
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=400&h=400&fit=crop",
+      "category": "components",
+      "featured": false
+    },
+    {
+      "id": 40,
+      "name": "ASUS ROG Strix Helios",
+      "price": 299,
+      "description": "Premium gaming PC case with tempered glass panels",
+      "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=400&h=400&fit=crop",
+      "category": "components",
+      "featured": false
+    },
+    {
+    "id": 41,
+    "name": "Beats Studio Pro",
+    "price": 349,
+    "description": "Wireless over-ear headphones with personalized spatial audio",
+    "image": "https://images.unsplash.com/photo-1610901301720-3c404e5ebef4?w=400&h=400&fit=crop",
+    "category": "audio",
+    "featured": false
+    },
+    {
+      "id": 42,
+      "name": "Acer Predator Helios 16",
+      "price": 1899,
+      "description": "High-end gaming laptop with Intel i9 and RTX 4080 GPU",
+      "image": "https://images.unsplash.com/photo-1617440233096-7f8d9b1a9f09?w=400&h=400&fit=crop",
+      "category": "laptops",
+      "featured": false
+    },
+    {
+      "id": 43,
+      "name": "Ring Video Doorbell Pro 2",
+      "price": 249,
+      "description": "Smart doorbell with 3D motion detection and Alexa support",
+      "image": "https://images.unsplash.com/photo-1585218357444-8a9bbfbc0b3d?w=400&h=400&fit=crop",
+      "category": "smart home",
+      "featured": false
+    },
+    {
+      "id": 44,
+      "name": "Roku Streaming Stick 4K",
+      "price": 49,
+      "description": "Compact streaming device with voice remote and Dolby Vision",
+      "image": "https://images.unsplash.com/photo-1632101735856-dc3e17aef62f?w=400&h=400&fit=crop",
+      "category": "streaming",
+      "featured": false
+    },
+    {
+      "id": 45,
+      "name": "Elgato Stream Deck MK.2",
+      "price": 149,
+      "description": "Customizable control pad for streamers and content creators",
+      "image": "https://images.unsplash.com/photo-1624726466456-f5c1a1ebf1ee?w=400&h=400&fit=crop",
+      "category": "accessories",
+      "featured": true
+    },
+    {
+      "id": 46,
+      "name": "Apple Magic Keyboard",
+      "price": 99,
+      "description": "Compact wireless keyboard with Touch ID for Mac",
+      "image": "https://images.unsplash.com/photo-1618259273326-193a5c7f9729?w=400&h=400&fit=crop",
+      "category": "accessories",
+      "featured": false
+    },
+    {
+      "id": 47,
+      "name": "TP-Link Archer AX11000",
+      "price": 379,
+      "description": "Tri-band Wi-Fi 6 gaming router with ultra-fast speeds",
+      "image": "https://images.unsplash.com/photo-1648725775824-8f0ea6fca3e4?w=400&h=400&fit=crop",
+      "category": "networking",
+      "featured": false
+    },
+    {
+      "id": 48,
+      "name": "Philips Hue Starter Kit",
+      "price": 179,
+      "description": "Smart LED light kit with 3 bulbs and a Hue Bridge",
+      "image": "https://images.unsplash.com/photo-1545244867-42f2f470b361?w=400&h=400&fit=crop",
+      "category": "smart home",
+      "featured": false
+    },
+    {
+      "id": 49,
+      "name": "Canon PIXMA G7020",
+      "price": 299,
+      "description": "All-in-one wireless printer with refillable ink tanks",
+      "image": "https://images.unsplash.com/photo-1611152305036-d88a08c45744?w=400&h=400&fit=crop",
+      "category": "printers",
+      "featured": false
+    },
+    {
+      "id": 50,
+      "name": "Eero Pro 6 Mesh Wi-Fi System",
+      "price": 499,
+      "description": "Whole-home mesh Wi-Fi with support for over 75 devices",
+      "image": "https://images.unsplash.com/photo-1580327334773-4427f63d055b?w=400&h=400&fit=crop",
+      "category": "networking",
+      "featured": true
+    }
+  ]
+}
